@@ -12,6 +12,6 @@
 
 ### 注：
 ##### images目录是所有用到的图片素材，levels文件夹中是我们自己生成的地图文件
-##### （所有的图片素材均来源于https://github.com/Limbor/SoulKnight/tree/master/Resource）
+##### （所有的图片素材均来源于https://github.com/Limbor/SoulKnight）
 ##### levels/model文件夹中的地图文件结合images/map中的图片可以生成地图（二进制文件，直接用文本编辑器打开会乱码）
 ##### levels/view文件夹是根据地图文件生成的碰撞判定文件（二进制文件，直接用文本编辑器打开会乱码）
