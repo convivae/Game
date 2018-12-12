@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\精灵">
+      <UniqueIdentifier>{d41c06ba-7b58-494f-a95e-90c7b59e898a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\精灵">
+      <UniqueIdentifier>{294ca1de-a116-4ca1-9051-8acb23577ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\不要改这些">
+      <UniqueIdentifier>{1840debd-20db-41f1-93e4-522013ae242d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\不要改这些">
+      <UniqueIdentifier>{4b9f7534-fab2-4486-a339-b9ea99c26677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\地图">
+      <UniqueIdentifier>{398d35cb-09db-4437-8675-d212b2ae04b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\地图">
+      <UniqueIdentifier>{5ceb0103-702b-4e6d-9218-32ba7e50adb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\数据传输">
+      <UniqueIdentifier>{b0004191-771e-49d9-880f-2f5348dc45d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\数据传输">
+      <UniqueIdentifier>{fd74425f-fe61-4d78-8ef8-30e648833ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\工作线程">
+      <UniqueIdentifier>{88c5f610-4e3b-4bce-8e10-db3e0d615228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\工作线程">
+      <UniqueIdentifier>{eaf5258d-3461-4e28-a119-ee82fdfb11d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\窗口">
+      <UniqueIdentifier>{b336d2b5-2ea5-47dd-8435-0f60b2a6f2c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\窗口">
+      <UniqueIdentifier>{b918fad3-069f-4696-89cc-6bbc6ae3673c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\全局控制">
+      <UniqueIdentifier>{32020925-b554-448f-8787-62f5b602efa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\全局控制">
+      <UniqueIdentifier>{58e6646b-45b4-4473-943a-dcf51a7adf8d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Source Files\精灵</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpReceiver.cpp">
+      <Filter>Source Files\数据传输</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpSender.cpp">
+      <Filter>Source Files\数据传输</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\不要改这些</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\不要改这些</Filter>
+    </ClCompile>
+    <ClCompile Include="MapModel.cpp">
+      <Filter>Source Files\地图</Filter>
+    </ClCompile>
+    <ClCompile Include="MapView.cpp">
+      <Filter>Source Files\地图</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>Source Files\数据传输</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files\精灵</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\精灵</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstacle.cpp">
+      <Filter>Source Files\精灵</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\精灵</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Source Files\精灵</Filter>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <Filter>Source Files\全局控制</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDisplayer.cpp">
+      <Filter>Source Files\工作线程</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsEngine.cpp">
+      <Filter>Source Files\工作线程</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWindow.cpp">
+      <Filter>Source Files\窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="ChooseWidget.cpp">
+      <Filter>Source Files\窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="MapWidget.cpp">
+      <Filter>Source Files\窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkerThread.cpp">
+      <Filter>Source Files\工作线程</Filter>
+    </ClCompile>
+    <ClCompile Include="global_vars.cpp">
+      <Filter>Source Files\全局控制</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Actor.h">
+      <Filter>Header Files\精灵</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\不要改这些</Filter>
+    </ClInclude>
+    <ClInclude Include="MapModel.h">
+      <Filter>Header Files\地图</Filter>
+    </ClInclude>
+    <ClInclude Include="MapView.h">
+      <Filter>Header Files\地图</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearAlgebra.h">
+      <Filter>Header Files\不要改这些</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>Header Files\数据传输</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files\精灵</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files\精灵</Filter>
+    </ClInclude>
+    <ClInclude Include="ClosedInterval.h">
+      <Filter>Header Files\不要改这些</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstacle.h">
+      <Filter>Header Files\精灵</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\精灵</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Header Files\精灵</Filter>
+    </ClInclude>
+    <ClInclude Include="global_vars.h">
+      <Filter>Header Files\全局控制</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.h">
+      <Filter>Header Files\全局控制</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="TcpReceiver.h">
+      <Filter>Header Files\数据传输</Filter>
+    </QtMoc>
+    <QtMoc Include="TcpSender.h">
+      <Filter>Header Files\数据传输</Filter>
+    </QtMoc>
+    <QtMoc Include="WorkerThread.h">
+      <Filter>Header Files\工作线程</Filter>
+    </QtMoc>
+    <QtMoc Include="GameDisplayer.h">
+      <Filter>Header Files\工作线程</Filter>
+    </QtMoc>
+    <QtMoc Include="PhysicsEngine.h">
+      <Filter>Header Files\工作线程</Filter>
+    </QtMoc>
+    <QtMoc Include="ChooseWidget.h">
+      <Filter>Header Files\窗口</Filter>
+    </QtMoc>
+    <QtMoc Include="GameWindow.h">
+      <Filter>Header Files\窗口</Filter>
+    </QtMoc>
+    <QtMoc Include="MapWidget.h">
+      <Filter>Header Files\窗口</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="GameWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ChooseWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="MapWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="GameWindow.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+</Project>
